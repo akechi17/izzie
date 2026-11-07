@@ -19,7 +19,7 @@ export type FlowerChoice = {
   id: string;
   label: string;
   /** Rendered as a tiny illustration in the bouquet. */
-  shape: "tulip" | "daisy" | "rose" | "sunflower" | "babys-breath";
+  shape: "tulip" | "daisy" | "rose" | "sunflower" | "gerbera";
   hue: string;
   /** How many of this flower the visitor may add. */
   limit: number;
@@ -68,7 +68,7 @@ export const birthday: BirthdayConfig = {
   recipientName: "Izzah",
   senderName: "Rafie",
 
-  musicTitle: "Little Daylight",
+  musicTitle: "Glue Song",
   musicArtist: "for Izzah",
   /** Replace the file at public/assets/music/birthday-song.mp3 (or change this path). */
   musicSrc: "/assets/music/birthday-song.mp3",
@@ -130,11 +130,11 @@ export const birthday: BirthdayConfig = {
       limit: 3,
     },
     {
-      id: "babys-breath",
-      label: "Baby's breath",
-      shape: "babys-breath",
-      hue: "#fdfbf4",
-      limit: 6,
+      id: "gerbera",
+      label: "Gerberas",
+      shape: "gerbera",
+      hue: "#f2915c",
+      limit: 4,
     },
   ],
 
